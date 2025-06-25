@@ -16,11 +16,14 @@ This project analyzes how **diabetes risk patterns change over time** using Beha
 
 ## 📁 Datasets
 
-This project uses the publicly available BRFSS survey data from [CDC's official website](https://www.cdc.gov/brfss/annual_data/annual_data.htm). These files are in `.XPT` (SAS transport) format.
+This project uses Behavioral Risk Factor Surveillance System (BRFSS) data from the [CDC's official website](https://www.cdc.gov/brfss/annual_data/annual_data.htm).
 
-- **Files required**:
-  - `LLCP2019.XPT`
-  - `LLCP2020.XPT`
-  - `LLCP2021.XPT`
-  - `LLCP2022.XPT`
-  - `LLCP2023.XPT`
+To replicate the analysis, download the following `.XPT` files and place them in a `datasets/` folder:
+
+- LLCP2019.XPT
+- LLCP2020.XPT
+- LLCP2021.XPT
+- LLCP2022.XPT
+- LLCP2023.XPT
+
+⚠️ **Note:** These files are not included in this GitHub repository due to file size restrictions.
